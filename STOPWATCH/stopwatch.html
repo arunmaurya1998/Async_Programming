@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #text{
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            color: red;
+        }
+        #stopwatch{
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+        }
+        #button{
+            text-align: center;
+            font-size: 30px;
+            font-style: italic;
+            color: brown;
+        }
+        
+    </style>
+</head>
+<body>
+       
+    <h1 id="text">STOPWATCH</h1> 
+    
+        
+           <h3 id="stopwatch">00 : 00 : 00</h3>
+         
+          <div id="button">
+            <button onclick="startStopwatch()" id="button1">Start</button>
+            <button onclick="stopStopwatch()">pause</button>
+            <button onclick="resetStopwatch()">Reset</button>
+          </div>
+          
+</body>
+</html>
+<script src="stopwatch.js"></script>
